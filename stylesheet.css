@@ -1,52 +1,34 @@
-*{
-    box-sizing:border-box;
-}
 
-body {
-    font-family: "Meiryo";
-}
-
-header{
+.header-contents{
     width:100%;
     height:70px;
-    color:white;
-    background-color:rgba(34, 49, 52, 0.9);
+    color:black;
+    background-color:rgba(127, 255, 212, 0.9);
     position:fixed;
     z-index:999;
-    top:-50px;
+    top:0;
 }
 
 .icon{
     float:left;
     padding:20px;
+    font-weight: bold;
 }
 
 .main{
     width:100%;
+    height:500px;
     color:white;
     text-align:center;
-    font-size:20px;
     background-image:url(haike_itiba.jpg);
     background-size:cover;
 }
 
-.txt-first{
-    font-size:35px;
-    letter-spacing:4px;
+.main-top{
+    font-size:30px;
+    padding-top:220px;
     font-weight:bold;
-}
-
-
-.aisatu{
-    padding-top:120px;
-}
-
-.kaisetu{
-    padding-top:50px;
-}
-
-.kaisetu-end{
-    padding-bottom:20px;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.7);
 }
 
 .contents{
@@ -101,41 +83,4 @@ header{
     display:inline-block;
     width:80%;
     color:white;
-}
-
-.tuke{
-    height:170px;
-    background-color:white;
-    color:black;
-}
-
-.tuke-title{
-    font-size:20px;
-    border-bottom:solid 1px black;
-}
-
-.tuke-contents{
-    width:230px;
-    height:80px;
-    float:left;
-    padding:10px;
-    margin:10px;
-    border:solid 1px silver;
-}
-
-.tuke-hinme{
-    font-weight:bold;
-    font-size:15px;
-    float:left;
-    margin:20px 15px 60px 0px;
-}
-
-.tuke-hinme:hover{
-    transform:scale(1.2,1.2);
-}
-
-.tuke-icon{
-    width:60px;
-    height:60px;
-    float:right;
 }
